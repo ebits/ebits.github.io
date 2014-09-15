@@ -1,0 +1,79 @@
+==================================================================
+https://keybase.io/evilbits
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://evilbits.io
+  * I am evilbits (https://keybase.io/evilbits) on keybase.
+  * I have a public key with fingerprint 4633 2D50 1203 D01C C2BA  DFE4 98DF B82A BFCD C938
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.5.1"
+        },
+        "key": {
+            "fingerprint": "46332d501203d01cc2badfe498dfb82abfcdc938",
+            "host": "keybase.io",
+            "key_id": "98DFB82ABFCDC938",
+            "uid": "3abc4ebf88a54715ad5e97187b79e600",
+            "username": "evilbits"
+        },
+        "merkle_root": {
+            "ctime": 1410811296,
+            "hash": "c0eb3631d64f313c31aa281784fdd0c291a665f35dc8f40e4bd38851378b7b583e35df696d524744a54adedc4221e8f8f5a0a7ba77a5d47c7a6fd4110cbb0f36",
+            "seqno": 48856
+        },
+        "service": {
+            "hostname": "evilbits.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1410811327,
+    "expire_in": 157680000,
+    "prev": "49db25fac0fa1fa30e745f7ca60c278cf1aff9bf23f0a77af13c0ea1b13b83ca",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFdUm1oHEUYvmsaa860KGj9UVvi/krJJc7szO7MBr/Sxipq8EerVBCO+Uw2vexe
+djcXw3lKNSrlRKpFUGgVIy0BKbWR1H5QGilY8egHftD4QVtLY6lotEqUUAR30orW
++TUz7zPP+zzPO1uXNmRy2a/eOf78XP9709n6JZ7ZcPsDxyoWD+WI1VmxRNFXQWJ2
+ARtQVqe1SY1wFqsOP2wJQqk6+uOWa5i8VVZR7IdBigIdTge0qnkDN4+1H/SqqBT5
+hsvCLkK2dAC0AZIACmFzJrXCHpWaU5txLaTwEE0p+8I4ua6rtcBZ8GV669HudWuo
+3bVm3drutVfxQwsFxLjAimtKmYMJdJh0lEcgJZx4ygXAAGMVXbOkyn6R+0ls9A6o
+aFNRFaIwXDAtEt9AIIaAQmh7bqqIxX3pIwEURy6C0sUaQSQQZMymkFCspQTC9iBz
+XUcjRwqqMVCYS0SpAxGhnHCHIpWWtOu50rExwTgVyqSSAts2VFRT7TDACGeEMEdi
+IghztcQQAsE50MhNLcRqMAitTpzSulVzjMq+UEa2Se1/5q5GV4rCJBRhMS30JUmp
+01hORkoGOKx4IVbvL3AUuB/IdGT/nSlModfHgWySt9TTJT9SBd8gHOJSkC7TR5XN
+oD3JbUczATSDmiGgCHY0EcxNEyJUaMi09ri2kQbGqU6DBIpBDhGnSLB/TTqpTtab
+UsZ+b8CSoUhZ1S3ZOxZnsrnMDY2LzKfN5Jpu/ucnT7o3ZrbvPfZX1Db+8VxbcGb7
++lWrVnz3SsOre/e/PHxg1/6XJjzvicrqmvvN+e5KdTT5dmDp0Jc7T3/y2cW3bnu7
+8cRBe8+nY/W7aq0rmrsuzoe3bNh24WjX8p6J2fH2X95tGDwzNj3/0VDrzOktU9k/
+L/3U+EbP1+fgNDi0/uetjzx5ajR/Zdtv0xvzH86evTx/4vu6x2fr9zc0l/FMrbry
+sZueuXLPDlAsNa28c27s+Ofj585O9T/67FOPn2p++NZFy1b/gHe33/vQB4f/eO1k
+7mjT6K8HSKX1xXzLRM+SuanJ3HDtbtD25uZlG587dKRe3F3bVZt8fd/i+9qTk1PL
+v+h+sGnfC32bf5w5cnDw9x2X9/wN
+=vR4r
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/evilbits
+
+==================================================================
+
+

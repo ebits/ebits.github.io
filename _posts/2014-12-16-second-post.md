@@ -5,14 +5,12 @@ excerpt: This is a just a test post of the evilbits emergency system. Please sta
 ## This is just a test!
 
 
-
-
 {% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
+  def show
+    @widget = Widget(params[:id])
+    respond_to do |format|
+      format.html # show.html.erb
+      format.json { render json: @widget }
+    end
   end
-end
 {% endhighlight %}

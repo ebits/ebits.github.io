@@ -14,11 +14,4 @@ excerpt: This is a just a test post of the evilbits emergency system. Please sta
     end
   end
 {% endhighlight %}
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
 {% include _disqus_comment_form.html %}

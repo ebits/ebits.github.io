@@ -1,0 +1,45 @@
+<html>
+    {% include _head.html %}
+    {% include _javascripts.html %}
+    <!--Per layout Javascript files -->
+    <script src="/assets/js/base.js"></script>
+
+    <body>
+  {% include _social_links_panel.html %}
+  <div class="eb-opening-header">
+      <div class="container cta">
+          <div class="row">
+              <div class="col-md-6 eb-intro">
+                  <h1>Hi, I'm Mick Ryan</h1>
+                  <h2><small>Father, Husband, Hacker of Things</small></h2>
+                  <p>
+                      I am a software engineer at a startup in San Francisco. This is where I talk about code and how it has affected my life, being a geek dad in the digital age, and my passion for learning new things all the time.
+                  </p>
+              </div>
+              <div class="col-md-3 col-md-offset-2 eb-selfie">
+                  <img class="img-circle" src="/assets/images/selfie.jpg" width="300px" height="300px" alt="Selfie Time" style="border: solid 5px moccasin ">
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container eb-main-content">
+      <div class="row">
+          <div class="col-md-9">
+              {{content}}
+          </div>
+          <div class="col-md-3 eb-my-projects">
+              <h3>My Latest Projects</h3>
+              <dl class="eb-project-list">
+                  {% include _project_list.html %}
+              </dl>
+          </div>
+          <div class="col-md-3 eb-latest-tweets">
+              <h3>Latest Tweets</h3>
+              <div id="tweet">
+                  <a class="twitter-timeline" href="https://twitter.com/evilbits" data-widget-id="548681371455991808">Tweets by @evilbits</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+</html>

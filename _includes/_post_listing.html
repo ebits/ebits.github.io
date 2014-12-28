@@ -1,0 +1,24 @@
+<ul class="eb-post-listing">
+  {% for post in site.posts %}
+    <li>
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h5><small>Posted on {{post.date | date_to_long_string}}  <i class="fa fa-comment-o"></i><a href="{{post.url}}#disqus_thread"></a></small></h5>
+      <p>
+        {{post.excerpt}}
+      </p>
+    </li>
+  {% endfor %}
+</ul>
+
+<script type="text/javascript">
+  /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  var disqus_shortname = 'evilbits'; // required: replace example with your forum shortname
+
+  /* * * DON'T EDIT BELOW THIS LINE * * */
+  (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  }());
+</script>

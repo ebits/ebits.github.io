@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB,CACf,UAAU,CAAE,KAAK,CAGnB,cAAc,CACZ,UAAU,CAAE,KAAK",
+"sources": ["../no_hero.scss"],
+"names": [],
+"file": "no_hero.css"
+}

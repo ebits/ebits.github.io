@@ -1,0 +1,6 @@
+url: "http://evilbits.io"
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap

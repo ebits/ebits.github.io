@@ -4,5 +4,3 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
-syntax-highlighting:
-  enabled : true

@@ -14,3 +14,5 @@ excerpt: This is a just a test post of the evilbits emergency system. Please sta
     end
   end
 {% endhighlight %}
+
+{% include _disqus_comment_form.html %}

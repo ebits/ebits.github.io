@@ -1,11 +1,20 @@
 @import "bootstrap";
 @import "font-awesome";
+@font-face {
+  font-family: FontAwesome;
+  src: url(/assets/styles/fonts/fontawesome-webfont.woff);
+}
+
+$screen-lg-min: 1200px;
+$screen-md-min: 992px;
+$screen-sm-min: 768px;
 
 body{
   background: Honeydew;
 }
 
 .eb-opening-header {
+  text-align: center;
   position: relative;
   border-bottom: solid 5px moccasin;
   background: salmon;
@@ -104,7 +113,6 @@ dl.eb-project-list {
 div.eb-latest-tweets {
   float: right;
   padding-left: 10px;
-  display: none;
 }
 
 .loader {
@@ -125,7 +133,6 @@ div.eb-latest-tweets {
 }
 
 //Post Listing related items
-
 
 ul.eb-post-listing {
   list-style: none;
@@ -149,5 +156,32 @@ ul.eb-post-listing {
     }
   }
 }
+#eb-project-list-collapse {
+  a {
+    color: salmon;
+  }
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+  .eb-opening-header {
+    text-align: left;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}
+
 
 

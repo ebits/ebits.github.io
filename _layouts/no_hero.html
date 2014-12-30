@@ -7,16 +7,16 @@
     {% include _social_links_panel.html %}
     <div class="container eb-main-content">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 col-sm-9">
                 {{content}}
             </div>
-            <div class="col-md-3 eb-my-projects">
+            <div class="col-md-3 col-sm-3 hidden-xs eb-my-projects">
                 <h3>My Latest Projects</h3>
                 <dl class="eb-project-list">
                     {% include _project_list.html %}
                 </dl>
             </div>
-            <div class="col-md-3 eb-latest-tweets">
+            <div class="col-md-3 hidden-sm hidden-xs eb-latest-tweets">
                 <h3>Latest Tweets</h3>
                 <div id="tweet">
                     <a class="twitter-timeline" href="https://twitter.com/evilbits" data-widget-id="548681371455991808">Tweets by @evilbits</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

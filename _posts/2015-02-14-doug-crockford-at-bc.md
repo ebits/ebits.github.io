@@ -4,6 +4,7 @@ excerpt: Bigcommerce SF had the pleasure to host Dogulas Crockford for our first
 ---
 
 ## The Better Parts of Javascript @ Bigcommerce San Francisco
+
 Bigcommerce SF had the pleasure to host Dogulas Crockford for our first tech talk in our new SF office on Feb. 2nd 2015. Douglas is a guiding voice in the Javascript world with his no-nonsense approach to development by utilizing “The Good Parts” of Javascript, made clear by his best selling book [Javascript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do).
 
 ![Crockford on Stage](http://i.imgur.com/hGZ4Hnt.jpg)
@@ -37,6 +38,7 @@ Douglas spent a good amount of time laying the groundwork for talking about the 
 * WeakMap
 
 He also discussed a few of the new Bad parts that are coming in ES6 as well.
+
 * class
 * Arrow function expression (referred to as the fat arrow) (name) => {id: name}
 
@@ -45,6 +47,7 @@ This part of the talk is where Douglas really focused his attention in what he w
 
 ### The wrap up
 Douglas also spoke extensively about the technical details of some of the new features, expounded on the bad parts of integers, and spoke about features that he would like to see in the next language such as a single number system, [dec64](http://dec64.com). We ended the talk with learning about JSON, the recent popularity boom and overtaking XML. He also gave advice to data format standard designers.
+
 * Don’t break JSON.
 * Make it significantly better.
 * Get a better name.

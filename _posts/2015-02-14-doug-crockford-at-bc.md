@@ -1,6 +1,6 @@
 ---
 layout: no_hero
-exceprt: Bigcommerce SF had the pleasure to host Dogulas Crockford for our first tech talk in our new SF office on Feb. 2nd 2015. Douglas is a guiding voice in the Javascript world with his no-nonsense approach to development by utilizing “The Good Parts” of Javascript, made clear by his best selling book [Javascript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do).
+excerpt: Bigcommerce SF had the pleasure to host Dogulas Crockford for our first tech talk in our new SF office on Feb. 2nd 2015. Douglas is a guiding voice in the Javascript world with his no-nonsense approach to development by utilizing “The Good Parts” of Javascript, made clear by his best selling book [Javascript: The Good Parts](http://shop.oreilly.com/product/9780596517748.do).
 ---
 
 ## The Better Parts of Javascript @ Bigcommerce San Francisco

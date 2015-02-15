@@ -1,6 +1,6 @@
 ---
 layout: no_hero
-exceprt: I have decided that I am going to try developing an IP camera channel for the Roku streaming platform.
+excerpt: I have decided that I am going to try developing an IP camera channel for the Roku streaming platform.
          We still have a Foscam in her room to monitor when she sleeps and when she plays in her room.
 ---
 # Delve into Roku development

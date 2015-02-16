@@ -1,7 +1,61 @@
+@mixin clearfix() {
+&:before,
+&:after {
+  content: " ";
+  display: table;
+}
+&:after {
+  clear: both;
+}
+}
+
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .eb-main-content {
   margin-top: 100px;
 }
 
 #disqus_thread{
   margin-top: 100px;
+}
+
+article.full-post {
+  width: 860px;
+  @include center-block();
+}
+
+img {
+  border: 5px solid moccasin;
+}
+
+img[alt="left-small"] {
+  margin: 10px;
+  float: left;
+  width: 360px;
+  height: auto;
+}
+
+img[alt="right-small"] {
+  margin: 10px;
+  float: right;
+  width: 360px;
+  height: auto;
+}
+
+img[alt="center-med"] {
+  margin: 10px auto;
+  display: block;
+  width:60%;
+  height: auto;
+}
+
+img[alt="center-large"] {
+  margin: 10px auto;
+  display: block;
+  width:100%;
+  height: auto;
 }

@@ -1,7 +1,7 @@
 <ul class="eb-post-listing">
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3>{{ post.title }}</h3>
       <h5 class="post-subtitle"><small>Posted on {{post.date | date_to_long_string}}  <i class="fa fa-comment-o"></i><a href="{{post.url}}#disqus_thread">View Comments</a></small></h5>
       <p class="post-excerpt">
         {{post.excerpt}}
